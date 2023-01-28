@@ -48,7 +48,7 @@ a {
   color: var(--subtitle-color-text);
 }
 
-.navigation a {
+.navigation {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -57,8 +57,9 @@ a {
   color: var(--subtitle-color-text);
 }
 
-.navigation a:hover,
-.navigation a:focus {
+.navigation:hover,
+.navigation:focus,
+.navigation.current {
   color: #404bbf;
 }
 
@@ -100,7 +101,7 @@ footer {
 
 /* -------------------------------- MAIN ---------------------------- */
 .button {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
