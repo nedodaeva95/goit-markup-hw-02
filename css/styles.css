@@ -8,8 +8,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
-  padding: 0px 156px 0px 156px;
 }
 
 ul {
@@ -78,8 +76,6 @@ a {
 /* --------------------------------- FOOTER---------------------------------*/
 
 footer {
-  width: 1440px;
-  height: 310px;
   background: var(--brand-color);
 }
 
@@ -128,48 +124,77 @@ footer {
 }
 
 .page-web-studio {
-  width: 1440px;
-  height: 600px;
   background: var(--brand-color);
 }
 
 .title {
   font-size: 56px;
   line-height: 1.1;
-  width: 494px;
-  height: 120px;
-  left: 473px;
-  top: 260px;
   color: #ffffff;
 }
 .subtitle {
-  width: 264px;
-  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--subtitle-color-text);
+}
+
+.text {
+  font-size: var(--text-paragrafe-font-size);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-paragrafe-color);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--subtitle-color-text);
 }
 
 .pretitle {
   font-size: 36px;
   line-height: 1.1;
+  letter-spacing: 0.02em;
   color: var(--subtitle-color-text);
 }
 
-.text {
-  font-size: var(--text-paragrafe-font-size);
-  color: var(--text-paragrafe-color);
-}
+/* -----------PORTFOLIO--------------------- */
 
 .team-section {
   background-color: #f4f4fd;
 }
 .team-cart {
-  width: 264px;
-  height: 380px;
   background-color: #ffffff;
+}
+
+.portf-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--subtitle-color-text);
+}
+
+.team-paragrafe {
+  font-size: var(--text-paragrafe-font-size);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-paragrafe-color);
 }
 
 .portfolio-cart {
   width: 360px;
   height: 420px;
   background-color: #ffffff;
+}
+
+.portf-paragrafe {
+  font-size: var(--text-paragrafe-font-size);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-paragrafe-color);
 }
